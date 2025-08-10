@@ -593,7 +593,9 @@ table#player img {
 /* LIODEN LOGO REPLACER */
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-	content: url('https://i.ibb.co/7JJXjGBh/Pokey2-Logo-1.png')
+	content: url('https://i.ibb.co/wNHm4TkP/Pokey2-Logo-Test.png');
+	margin:-5px;
+	margin-left:-25px;
 }
 
 /* CAVE / MOUND IMAGES */
