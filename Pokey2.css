@@ -622,7 +622,7 @@ div.cave-grid>img[src$="nestingbanner.png"] {
 }
 /* unsorted cave */
 div.cave-grid>img[src$="unsortedlionsbanner.png"] {
-	content: url('https://static.lioden.com/images/layout/anim/gaunab/0000.jpg')!important;
+	content: url('https://static.lioden.com/images/dynamic/backgrounds/burningsahel.png')!important;
 }
 /* pride overview cave */
 div.cave-grid>img[src$="prideoverviewbanner.png"] {
