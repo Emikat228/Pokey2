@@ -12,17 +12,17 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 /* BACKGROUND */
 
 body {
-	background: url('https://i.ibb.co/LDJntVyr/Perseid-Storm-BG-1.png') center center fixed;
+	background: url('https://i.ibb.co/35fW84C9/Charred-Lands-2.png') center center fixed;
 	background-size: 100%;
 	font-family: "UnifrakturMaguntia", cursive;
-	color: #FFFFFF
+	color: #F27830
 }
 
 /* MAIN PANEL */
 
 /* RIGHT SIDE */
 .container.main {
-	background: rgba(1, 13, 38, 0.5);
+	background: rgba(13, 13, 12, 0.75);
 	border: 0 ridge !important;
 	box-shadow: none;
 	border-radius: 10px !important;
@@ -37,41 +37,41 @@ body {
 /* TOPBAR ("Welcome back, ___") */
 
 .topbar {
-	background: #011140;
+	background: #0D0D0C;
 	border: 0 ridge !important;
 	border-top: none;
-	color: #FFFFFF;
+	color: #F2B035;
 	border-radius: 10px !important;
 }
 
 /* NAVBAR (Den/Crossroads/Etc.) */
 
 .navbar {
-	background: rgba(1, 17, 64, 0.5);
+	background: #0D0D0C;
 	border-bottom: none;
-	color: #FFFFFF;
+	color: #F27830;
 	border-radius: 10px !important;
 }
 
 /* NAVBAR BUTTON TEXT COLOR */
 
 .navbar li a {
-	color: #FFFFFF !important
+	color: #F27830 !important
 }
 
 /* NAVBAR BUTTON HOVER */
 
 .navbar li a:hover {
-	background: rgba(14, 47, 115, 0.5) !important;
+	background: #55554E !important;
 	border-bottom: none;
-	color: #587AA6 !important;
+	color: #F2B035 !important;
 	border-radius: 10px !important;
 }
 
 /* BREADCRUMB (Home / Den) */
 
 .breadcrumb {
-	background: rgba(1, 17, 64, 0.5) !important;
+	background: #252522 !important;
         border: 0 ridge !important;
 	border-radius: 10px !important;
 }
@@ -79,14 +79,14 @@ body {
 /* BREADCRUMB TEXT */
 
 .breadcrumb .active {
-	color: #FFFFFF
+	color: #F2B035
 }
 
 /* CSS CREDIT */
 
 .breadcrumb::after {
         content: "Template by Katie (#106445)";
-        color: #FFFFFF;
+        color: #F2B035;
         position: absolute;
         right: 13%; /* (This may need adjusting) */
         z-index: 100
@@ -113,20 +113,20 @@ body {
 /* BOOKMARK BUTTON */
 
 input.floatright, input.floatright:hover {
-	background: rgba(1, 17, 64, 0.5) !important;
+	background: #55554E !important;
         border: 0 ridge !important;
 	border-radius: 10px !important;
-	color: #FFFFFF !important;    
+	color: #F2B035 !important;    
 }
 
 /* SWITCH ACCOUNT BUTTON */
 
 button.button, button.button:hover {
-	background: rgba(1, 17, 64, 0.5);
+	background: #0D0D0C;
         border: 0 ridge !important;
 	border-radius: 10px !important;
         text-shadow: none !important;
-	color: #FFFFFF !important
+	color: #F2B035 !important
 }
 
 /* ALERTS (ie. "Your lionesses have returned from hunting!") */
@@ -134,26 +134,27 @@ button.button, button.button:hover {
 .alert,
 .alert-warning,
 .alert-danger {
-	background: rgba(1, 17, 64, 0.5) !important;
+	background: rgba(61, 61, 56, 0.95) !important;
 	border: 0 ridge !important;
-	color: #FFFFFF;
+	color: #F2B035;
 	border-radius: 10px !important;
 }
 
 /* BIGGEST HEADER ("___"'s DEN) */
 
 h1 {
-	color: #FFFFFF;
-	font-size: 90px;
+	color: #F27830;
+    text-shadow: 1px 0px 10px rgba(242, 176, 53, 0.75);
+	font-size: 50px;
 	text-align: center;
-        font-family: "Petit Formal Script", cursive;
+        font-family: "UnifrakturMaguntia", cursive;
 }
 
 
 /* MEDIUM HEADER */
 
 h2 {
-	color: #FFFFFF;
+	color: #F27830;
 	font-size: 24px;
 	text-align: center
 }
@@ -162,37 +163,37 @@ h2 {
 /* SMALL HEADER */
 
 h3 {
-	color: #FFFFFF !important;
+	color: #F27830 !important;
 	font-size: 14px !important
 }
 
 /* RIGHT SIDE PANEL HEADER */
 
 .sidebar h3 {
-	color: #587AA6 !important;
+	color: #F27830 !important;
         font-size: 26px !important;
-        font-family: "Marcellus", serif;
+        font-family: "UnifrakturMaguntia", cursive;
 }
 
 /* RIGHT SIDE PANELS */
 .panel {
-	background: rgba(1, 17, 64, 0.5) !important;
+	background: rgba(61, 61, 56, 0.75) !important;
 	box-shadow: none !important;
 	border: 0 ridge !important;
-	color: ##587AA6 !important;
+	color: #F27830 !important;
 	border-radius: 10px !important;
 }
 
 /* ENERGY BAR BACKGROUND */
 .progress {
-	background: #011140;
+	background: #0D0D0C;
 	color: #FFFFFF !important;
 	border-radius: 10px !important;
 }
 
 /* ENERGY BAR COLOR */
 .progress-bar {
-	background: #0E2F73;
+	background:  linear-gradient(90deg,rgba(209, 40, 1, 1) 0%, rgba(242, 120, 48, 1) 50%, rgba(242, 176, 53, 1) 100%); 
 	color: #FFFFFF !important;
 	border-radius: 10px !important;
 }
@@ -205,25 +206,25 @@ h3 {
 /* CHAT */
 
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
-	background: rgba(1, 17, 64, 0.5) !important;
-        color: #FFFFFF !important;
+	background: #252522 !important;
+        color: #F2B035 !important;
 	border: 0 ridge !important;
 }
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
-	background: rgba(14, 47, 115, 0.5) !important;
-        color: #FFFFFF !important;
+	background: #3D3D38 !important;
+        color: #F27830 !important;
 	border: 0 ridge !important;
 }
 
 .s-chat-message__pinned /* Pinned Message */ {
-	background: rgba(1, 13, 38, 0.5) !important;
-        color: #FFFFFF !important;
+	background: #0D0D0C !important;
+        color: #F27830 !important;
 	border: 0 ridge !important;
 }
 
 .s-chat-message_timestamp /* Timestamps */ {
-	color: #FFFFFF !important;
+	color: #55554E !important;
 }
 
 div#chatMessageContainer {
@@ -232,8 +233,8 @@ div#chatMessageContainer {
 }
 
 button#label_currentChannel /* Channel Button ie. Main, Sales */ {
-	background: rgba(1, 17, 64, 0.5) !important;
-        color: #FFFFFF !important;
+	background: #0D0D0C !important;
+        color: #F27830 !important;
 	border: 0 ridge !important;
 }
 
@@ -242,8 +243,8 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 /*Comment Box by Hok-Z #41458 / #170947*/
 /*-------------------------*/
 #commentBox {
-background: rgba(1, 13, 38, 0.5);
-border: 2px #587AA6 !important;
+background: rgba(85, 85, 78, 0.5);
+border: 2px #0D0D0C !important;
 height: 280px !important;
 margin-top: 40px;
 overflow: auto !important;
@@ -252,34 +253,34 @@ border-top-right-radius: 0px !important;
 }
 
 .comment {
-background: rgba(1, 17, 64, 0.5) !important;
-border-bottom: 1px #010D26;
+background: #55554E !important;
+border-bottom: 1px #0D0D0C;
 font-weight: bold;
-color: #FFFFFF;
+color: #F27830;
 }
 
-.comment a {color: #FFFFFF;}
+.comment a {color: #F2B035;}
 
-.comment .text-muted {color: #FFFFFF;}
+.comment .text-muted {color: #F2B035;}
 
 #makeComment {
-background: rgba(1, 17, 64, 0.5) !important;
-border: 2px #010D26;
+background: #0D0D0C !important;
+border: 2px #0D0D0C;
 border-radius: 10px;
 }
 
 #comment {
-background: rgba(1, 17, 64, 0.5) !important;
-color: #FFFFFF !important;
+background: #55554E !important;
+color: #F27830 !important;
 }
 
 input[type="button"].bad {
-background: #FFFFFF !important;
+background: #F27830 !important;
 }
 
 input#postComment {
-background: #FFFFFF !important;
-color: black;
+background: #D12801 !important;
+color: #D12801;
 }
 
 
@@ -289,7 +290,7 @@ color: black;
 /* PANEL BACKGROUND COLOR */
 
 .table {
-	background: rgba(1, 13, 38, 0.5);
+	background: rgba(37, 37, 34, 0.8);
 	border: 0 ridge !important;
 	border-collapse: separate;
 	border-radius: 10px !important;
@@ -301,8 +302,8 @@ color: black;
 .top,
 .bottom,
 th {
-	background: rgba(1, 17, 64, 0.5) !important;
-	color: #FFFFFF !important;
+	background: #0D0D0C !important;
+	color: #F2B035 !important;
 	border-radius: 10px !important;
 }
 
@@ -313,8 +314,8 @@ td.bottom a {
 /* Color behind "Level, Stats, Branch, Territory" etc. */
 
 .inner-table .left {
-	background: rgba(14, 47, 115, 0.5) !important;
-        color: #FFFFFF;
+	background: rgba(13, 13, 12, 0.6) !important;
+        color: #F2B035;
 	border-radius: 10px !important;
 }
 
@@ -322,7 +323,7 @@ td.bottom a {
 /* Color behind the number of all of the things above */
 
 .inner-table .right {
-	background: rgba(1, 17, 64, 0.5) !important;
+	background: rgba(61, 61, 56, 0.6) !important;
 	border-radius: 10px !important;
 }
 
@@ -339,7 +340,7 @@ td.right {
 
 .cave-grid,
 .mound-grid {
-	background: #011140 !important;
+	background: rgba(13, 13, 12, 0.7) !important;
 	border: 0 ridge !important;
 	border-radius: 10px !important;
 }
@@ -347,9 +348,9 @@ td.right {
 /* FEED ALL, PLAY ALL */
 
 .feature {
-	background: rgba(1, 17, 64, 0.5) !important;
-	color: #FFFFFF !important;
-	border: 1px solid #587AA6 !important;
+	background: rgba(13, 13, 12, 0.7) !important;
+	color: #F2B035 !important;
+	border: 1px solid #F2B035 !important;
 	border-radius: 10px !important;
 }
 
@@ -357,7 +358,7 @@ td.right {
 
 .feature,
 div.left {
-	background: #011140;
+	background: rgba(13, 13, 12, 0.7);
 	border: 0 ridge !important;
 	border-radius: 10px !important;
 }
@@ -365,7 +366,7 @@ div.left {
 /* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
 
 .table .left {
-	background: rgba(1, 17, 64, 0.5);
+	background: #3D3D38;
         border-radius: 10px !important;
 }
 
@@ -374,10 +375,10 @@ div.left {
 input,
 select,
 textarea {
-	background: rgba(1, 13, 38, 0.5) !important;
+	background: rgba(85, 85, 78, 0.6) !important;
 	border: 0 ridge !important;
 	border-radius: 10px !important;
-	color: #FFFFFF !important;
+	color: #F2B035 !important;
 	box-shadow: none !important;
 	text-shadow: none !important
 }
@@ -386,7 +387,7 @@ textarea {
 
 .item-header {
 	background: rgba(1, 13, 38, 0.5) !important;
-	color: #FFFFFF  !important;
+	color: #F2B035  !important;
 	border-radius: 10px !important;
 }
 
@@ -399,11 +400,11 @@ textarea {
 /* ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH */
 
 div.slider.round /* Background */ {
-	background: #0E2F73 !important
+	background: #F2B035 !important
 }
 
 div.slider.round::before /* Circle Part */ {
-	background: #587AA6 !important
+	background: #F27830 !important
 }
 
 /* Copyright, Terms of Service, CoC, etc. */
@@ -417,13 +418,15 @@ div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.containe
 
 a:link,
 a:visited {
-	color: #FFFFFF !important
+	color: #F27830 !important;
+    text-shadow: 1px 0px 10px rgba(242, 176, 53, 0.75);
 }
 
 /* LINK HOVER COLOR */
 
 a:hover {
-	color: #587AA6 !important
+	color: #D12801 !important;
+    text-shadow: 1px 0px 10px rgba(242, 120, 48, 0.60);
 }
 
 
@@ -549,14 +552,14 @@ a:hover {
 /* BACKGROUND */
 
 ::-webkit-scrollbar-track {
-	background: #587AA6
+	background: #0F0D0B
 }
 
 
 /* "THUMB" */
 
 ::-webkit-scrollbar-thumb {
-	background: #010D26;
+	background: #F27830;
 	border-radius: 0px
 }
 
@@ -590,41 +593,118 @@ table#player img {
 /* LIODEN LOGO REPLACER */
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-	content: url('https://i.ibb.co/qLmSM08s/Pokey-Logo-1-1.png')
+	content: url('https://i.ibb.co/7JJXjGBh/Pokey2-Logo-1.png')
 }
 
 /* CAVE / MOUND IMAGES */
 
+   /* all caves image*/
+div.cave-grid>img {
+	padding-left: 0%;
+	height: 180px;	
+	width: 260px;
+	opacity: 1;
+	border: 0px ridge;
+	overflow: hidden;
+	border-radius: 10px !important;
+	transition: 1.5s;
+}
+div.cave-grid>img:hover{
+	filter: brightness(60%);
+	overflow: hidden;
+	transition: 0.8s !important;
+}
 /*Unsorted Lions*/
-img[src$="unsortedlionsbanner.png"] {
-content: url('https://i.ibb.co/ymq5ZNBK/Pokey-Unsorted-2.png')!important;
+div.cave-grid>img[src$="nestingbanner.png"] {
+	content: url('https://static.lioden.com/images/dynamic/backgrounds/FlamingAshlands.png')!important;
+}
+/* unsorted cave */
+div.cave-grid>img[src$="unsortedlionsbanner.png"] {
+	content: url('https://static.lioden.com/images/layout/anim/gaunab/0000.jpg')!important;
+}
+/* pride overview cave */
+div.cave-grid>img[src$="prideoverviewbanner.png"] {
+	content: url('https://static.lioden.com/images/dynamic/backgrounds/siberiafire.png')!important;
+}
+    
+a[href$="492501"]>div.cave-grid>img {
+	content: url('https://static.lioden.com/images/dynamic/backgrounds/CharredLands.png') !important
 }
 
-/*Nesting*/
-img[src$="nestingbanner.png"] {
-content: url('https://i.ibb.co/jkWwcSKx/Pokey-Preg-1.png')!important;
+div.cave-grid>img[src$="caveunused.jpg"] {
+	content: url('https://static.lioden.com/images/dynamic/backgrounds/fireplains.png')!important;
+}
+/* da mounds */
+.mound-grid img {
+	background: url('https://static.lioden.com/images/dynamic/backgrounds/SmokeOnTheWater.png');
+	background-size:cover;
+	width: 100%;
+	height: 100%;
+	padding-top: 70%;
+	padding-right: 100%;
+	max-height:150px;
+	border-radius: 10px !important;
+	opacity: 1;
+	transition: 1.5s;
+}
+.mound-grid img:hover{
+	filter: brightness(50%);
+	transition: 0.8s !important;
+}    
+
+img[src$="default.png"] {
+content: url("https://static.lioden.com/images/dynamic/backgrounds/CharredLands.png"); 
+}
+    
+/* beetle book adjustment code by tawnyCollar#251887. may be used in commissions, personal CSS, and free CSS. do NOT remove credit, or reupload claiming it as your own. */
+/* change beetle book image */
+    img[src$="den_ancestors.png"] {
+	background:none!important; 
+       content:url('https://static.lioden.com/images/dynamic/backgrounds/DeadlandsBG.png')!important;
+        transform: scaleX(-1);
+}
+img[src$="den_ancestorsfem.png"] {
+	background:none!important; 
+    content:url('https://static.lioden.com/images/dynamic/backgrounds/bleedingww.png')!important;
+
+}
+img[src$="den_achievements.png"] {
+	background:none!important; 
+    content:url('https://static.lioden.com/images/dynamic/backgrounds/MoltenChasm.png')!important;
+    transform: scaleX(-1);
+}
+img[src$="den_showcase.png"] {
+	background:none!important; 
+       content:url('https://static.lioden.com/images/dynamic/backgrounds/7thdemonicdepths.png')!important;
+	
+	
+}
+img[src$="den_beetlebook.png"] {
+	background:none!important; 
+       content:url('https://static.lioden.com/images/dynamic/backgrounds/hellfirefalls.png');
+    transform: scaleX(-1);
 }
 
-/*Overview*/
-img[src$="overviewbanner.png"] {
-content: url('https://i.ibb.co/S4sNDJZz/Pokey-Overview-1.png')!important;
+/* fits all elements on one line */
+body > div.container.main > div > div.col-md-9.col-xs-12 > center {
+    flex-wrap: nowrap; 
+    justify-content: space-between; 
 }
-
-img[src$="caveunused.jpg"] {
-content: url("https://i.ibb.co/ZRpN4021/Pokeycaves-1.png") !important;
+.dynastylist {
+    flex: 1 1 auto;
+    max-width: 20%; 
+    box-sizing: border-box; 
 }
-
-img[src$="cavedefault.jpg"] {
-content: url("https://i.ibb.co/ZRpN4021/Pokeycaves-1.png") !important; 
+/* resizes all images to fit the new layout */
+.dynastylist img {
+    height: 100%!important;
+	 width: 100%!important;
+	border-radius: 10px;
 }
-
-.mound-grid img /* Mound(s) */ {
-	background: url("https://i.ibb.co/SXrjMWtY/Pokey-Mounds-1.png");
-	width: 0;
-	height: 0;
-	padding-top: 80px;
-	padding-right: 130px
-}
+.dynastylist img:hover{
+	filter: brightness(50%);
+	transition: 0.8s !important;
+}            
 
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
@@ -644,16 +724,16 @@ content: url("https://i.ibb.co/ZRpN4021/Pokeycaves-1.png") !important;
 		}
 	}
 img[src$="icon-beetle-gold.png"] {
-content: url("https://static.lioden.com/images/items/Other/meteoriteshard.png") !important;
+content: url("https://i.ibb.co/hNckbhr/Pokey2-Gb-1.png") !important;
 width: 20px !important;
 }
 
 img[src$="icon-beetle-silver.png"] {
-content: url("https://static.lioden.com/images/layout/icon_axion.png") !important;
+content: url("https://i.ibb.co/RkMW1BJ1/Pokey2-Sb-1.png") !important;
 width: 20px !important;
 }
 
-/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/symbols/sym-5/sym430.cur), auto !important;} /* End https://www.cursors-4u.com */
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-8/nat799.cur), auto !important;} /* End https://www.cursors-4u.com */
 
     /* ANIMATED FALLING SNOW: EDITED FOR LIODEN, BY PLAYER =Austin= #43750 */
 /* ANIMATED BY ALPHARDEX ON CODEPEN: https://codepen.io/alphardex/pen/dyPorwJ */
@@ -667,7 +747,7 @@ width: 20px !important;
   height: 100vh;
   overflow: hidden;
   pointer-events: none;
-  filter: drop-shadow(0 0 10px white);
+  filter: drop-shadow(0 0 10px #3D3D38);
   z-index: 100;
 }
  
@@ -675,7 +755,7 @@ width: 20px !important;
   position: absolute;
   width: 10px;
   height: 10px;
-  background: white;
+  background: #3D3D38;
   border-radius: 50%;
 }
 .snow:nth-child(1) {
